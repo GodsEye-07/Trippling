@@ -11,3 +11,8 @@ Soon there will then be addition to more features like:-
 
 1. Login in with facebook and also one will be able to see what are the other 
 trips there friends are going.
+
+
+and many ore as the application progresses
+
+note:- this is just for the learning purpose of application development and i dont intend to earn anything out of it
