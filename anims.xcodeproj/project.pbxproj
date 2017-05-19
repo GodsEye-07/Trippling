@@ -16,6 +16,8 @@
 		2A57E02C1ECD7D5C00F97926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A57E02A1ECD7D5C00F97926 /* LaunchScreen.storyboard */; };
 		2A57E0371ECD7D5C00F97926 /* animsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A57E0361ECD7D5C00F97926 /* animsTests.swift */; };
 		2A57E0421ECD7D5C00F97926 /* animsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A57E0411ECD7D5C00F97926 /* animsUITests.swift */; };
+		2A70E24D1ECE273E0026EB13 /* customTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A70E24C1ECE273E0026EB13 /* customTableViewCell.swift */; };
+		2A70E24F1ECE27D20026EB13 /* tripTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A70E24E1ECE27D20026EB13 /* tripTableViewController.swift */; };
 		6E2C6D0E02B95DC2384C8BE8 /* Pods_animsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB3C307B057FAB6DED7B59B /* Pods_animsUITests.framework */; };
 		AFE393AB2AFAD3A7D9D0190C /* Pods_animsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B711B92B2CDBC2B889871B /* Pods_animsTests.framework */; };
 		FF0AE7D72AD1521389C3F4BD /* Pods_anims.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0103E53E7D786CDA4B3ED302 /* Pods_anims.framework */; };
@@ -55,6 +57,8 @@
 		2A57E03D1ECD7D5C00F97926 /* animsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A57E0411ECD7D5C00F97926 /* animsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animsUITests.swift; sourceTree = "<group>"; };
 		2A57E0431ECD7D5C00F97926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A70E24C1ECE273E0026EB13 /* customTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customTableViewCell.swift; sourceTree = "<group>"; };
+		2A70E24E1ECE27D20026EB13 /* tripTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tripTableViewController.swift; sourceTree = "<group>"; };
 		4FB3C307B057FAB6DED7B59B /* Pods_animsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_animsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62FD845F40EA1BD443E91476 /* Pods-anims.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-anims.release.xcconfig"; path = "Pods/Target Support Files/Pods-anims/Pods-anims.release.xcconfig"; sourceTree = "<group>"; };
 		78BED548C3EF64AC0F1D67DA /* Pods-animsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-animsUITests/Pods-animsUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,8 +124,10 @@
 			children = (
 				2A57E01E1ECD7D5C00F97926 /* AppDelegate.swift */,
 				2A57E0201ECD7D5C00F97926 /* ViewController.swift */,
-				2A57E0221ECD7D5C00F97926 /* Main.storyboard */,
 				2A40E3291ECDC760006E3996 /* roundButton.swift */,
+				2A57E0221ECD7D5C00F97926 /* Main.storyboard */,
+				2A70E24E1ECE27D20026EB13 /* tripTableViewController.swift */,
+				2A70E24C1ECE273E0026EB13 /* customTableViewCell.swift */,
 				2A57E0281ECD7D5C00F97926 /* Assets.xcassets */,
 				2A57E02A1ECD7D5C00F97926 /* LaunchScreen.storyboard */,
 				2A57E02D1ECD7D5C00F97926 /* Info.plist */,
@@ -457,6 +463,8 @@
 			files = (
 				2A40E32A1ECDC760006E3996 /* roundButton.swift in Sources */,
 				2A57E0211ECD7D5C00F97926 /* ViewController.swift in Sources */,
+				2A70E24F1ECE27D20026EB13 /* tripTableViewController.swift in Sources */,
+				2A70E24D1ECE273E0026EB13 /* customTableViewCell.swift in Sources */,
 				2A57E0271ECD7D5C00F97926 /* anims.xcdatamodeld in Sources */,
 				2A57E01F1ECD7D5C00F97926 /* AppDelegate.swift in Sources */,
 			);

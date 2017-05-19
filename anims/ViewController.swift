@@ -34,9 +34,7 @@ class ViewController: UIViewController {
         passwordLabel.alpha = 0
         passwordText.alpha = 0
         goButton.alpha = 0
-        lastLabel.alpha = 0
-        
-        
+        lastLabel.alpha = 0    
     }
     
     
