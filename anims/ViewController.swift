@@ -21,6 +21,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var passwordText: UITextField!
     @IBOutlet weak var goButton: roundButton!
     @IBOutlet weak var lastLabel: UILabel!
+    @IBOutlet weak var menuView: UIView!
+    @IBOutlet weak var darkFillView: UIViewX!
+    @IBOutlet weak var toggleButton: UIButton!
 
  
     override func viewDidLoad() {
@@ -98,6 +101,35 @@ class ViewController: UIViewController {
             }
     
     
+    @IBAction func toggleMenuButton(_ sender: UIButton) {
+        
+        
+        if darkFillView.transform == .identity{
+        UIView.animate(withDuration: 1, animations: { 
+                self.darkFillView.transform = CGAffineTransform.init(scaleX: 11, y: 11)
+                self.menuView.transform = CGAffineTransform(translationX: 0, y: -67)
+                self.toggleButton.transform = CGAffineTransform(rotationAngle: self.radians(degrees: 180))
+        }) { (true) in
+            
+            }
+        }
+        else{
+            UIView.animate(withDuration: 1, animations: {
+                self.darkFillView.transform = .identity
+                self.menuView.transform = .identity
+                self.toggleButton.transform = .identity
+            }) { (true) in
+                
+            }
+        }
+    }
+
+    
+    // for not to use the minus sign and converting it into radians yourself use the function directly
+    func radians(degrees:Double) -> CGFloat {
+        return CGFloat(degrees * .pi/degrees)
+    }
+//    { or can also use -(180 * 3.14/180)  }
 
 
 }
