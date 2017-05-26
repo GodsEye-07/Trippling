@@ -1,16 +1,14 @@
 //
-//  tripDetailViewController.swift
+//  extra.swift
 //  anims
 //
-//  Created by Ayush Verma on 20/05/17.
+//  Created by Ayush Verma on 21/05/17.
 //  Copyright © 2017 ayush. All rights reserved.
 //
 
 import UIKit
 
-class tripDetailViewController: UIViewController {
-    
-    
+class extra: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +21,11 @@ class tripDetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-   
+    @IBAction func abc(_ sender: UIButton) {
+        
+        presentingViewController?.dismiss(animated: true, completion: nil)
+        
+    }
     
+
 }

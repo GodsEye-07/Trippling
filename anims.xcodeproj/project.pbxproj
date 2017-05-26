@@ -18,8 +18,12 @@
 		2A57E0421ECD7D5C00F97926 /* animsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A57E0411ECD7D5C00F97926 /* animsUITests.swift */; };
 		2A70E24D1ECE273E0026EB13 /* customTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A70E24C1ECE273E0026EB13 /* customTableViewCell.swift */; };
 		2A70E24F1ECE27D20026EB13 /* tripTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A70E24E1ECE27D20026EB13 /* tripTableViewController.swift */; };
+		2A7438E01ED20B3500036A10 /* extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7438DF1ED20B3500036A10 /* extra.swift */; };
 		2AAEAE221ED043E600C00B9D /* tripDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAEAE211ED043E600C00B9D /* tripDetailViewController.swift */; };
 		2AAEAE241ED0508700C00B9D /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAEAE231ED0508700C00B9D /* UIViewX.swift */; };
+		2AB6825D1ED17907004773A7 /* profileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB6825C1ED17907004773A7 /* profileVC.swift */; };
+		2AC9F8151ED559720022660A /* walletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC9F8141ED559720022660A /* walletVC.swift */; };
+		2AC9F8171ED55A070022660A /* walletcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC9F8161ED55A070022660A /* walletcell.swift */; };
 		6E2C6D0E02B95DC2384C8BE8 /* Pods_animsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB3C307B057FAB6DED7B59B /* Pods_animsUITests.framework */; };
 		AFE393AB2AFAD3A7D9D0190C /* Pods_animsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B711B92B2CDBC2B889871B /* Pods_animsTests.framework */; };
 		FF0AE7D72AD1521389C3F4BD /* Pods_anims.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0103E53E7D786CDA4B3ED302 /* Pods_anims.framework */; };
@@ -61,8 +65,12 @@
 		2A57E0431ECD7D5C00F97926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A70E24C1ECE273E0026EB13 /* customTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customTableViewCell.swift; sourceTree = "<group>"; };
 		2A70E24E1ECE27D20026EB13 /* tripTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tripTableViewController.swift; sourceTree = "<group>"; };
+		2A7438DF1ED20B3500036A10 /* extra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extra.swift; sourceTree = "<group>"; };
 		2AAEAE211ED043E600C00B9D /* tripDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tripDetailViewController.swift; sourceTree = "<group>"; };
 		2AAEAE231ED0508700C00B9D /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		2AB6825C1ED17907004773A7 /* profileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileVC.swift; sourceTree = "<group>"; };
+		2AC9F8141ED559720022660A /* walletVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = walletVC.swift; sourceTree = "<group>"; };
+		2AC9F8161ED55A070022660A /* walletcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = walletcell.swift; sourceTree = "<group>"; };
 		4FB3C307B057FAB6DED7B59B /* Pods_animsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_animsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62FD845F40EA1BD443E91476 /* Pods-anims.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-anims.release.xcconfig"; path = "Pods/Target Support Files/Pods-anims/Pods-anims.release.xcconfig"; sourceTree = "<group>"; };
 		78BED548C3EF64AC0F1D67DA /* Pods-animsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-animsUITests/Pods-animsUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +139,10 @@
 				2AAEAE211ED043E600C00B9D /* tripDetailViewController.swift */,
 				2A70E24E1ECE27D20026EB13 /* tripTableViewController.swift */,
 				2A70E24C1ECE273E0026EB13 /* customTableViewCell.swift */,
+				2AB6825C1ED17907004773A7 /* profileVC.swift */,
+				2A7438DF1ED20B3500036A10 /* extra.swift */,
+				2AC9F8141ED559720022660A /* walletVC.swift */,
+				2AC9F8161ED55A070022660A /* walletcell.swift */,
 				2A57E0221ECD7D5C00F97926 /* Main.storyboard */,
 				2A57E0281ECD7D5C00F97926 /* Assets.xcassets */,
 				2AAEAE251ED052E400C00B9D /* Supporting Files */,
@@ -476,10 +488,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A40E32A1ECDC760006E3996 /* roundButton.swift in Sources */,
+				2AC9F8151ED559720022660A /* walletVC.swift in Sources */,
 				2AAEAE241ED0508700C00B9D /* UIViewX.swift in Sources */,
 				2A57E0211ECD7D5C00F97926 /* ViewController.swift in Sources */,
+				2AC9F8171ED55A070022660A /* walletcell.swift in Sources */,
 				2A70E24F1ECE27D20026EB13 /* tripTableViewController.swift in Sources */,
+				2AB6825D1ED17907004773A7 /* profileVC.swift in Sources */,
 				2AAEAE221ED043E600C00B9D /* tripDetailViewController.swift in Sources */,
+				2A7438E01ED20B3500036A10 /* extra.swift in Sources */,
 				2A70E24D1ECE273E0026EB13 /* customTableViewCell.swift in Sources */,
 				2A57E0271ECD7D5C00F97926 /* anims.xcdatamodeld in Sources */,
 				2A57E01F1ECD7D5C00F97926 /* AppDelegate.swift in Sources */,

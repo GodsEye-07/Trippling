@@ -10,7 +10,9 @@ import UIKit
 
 class tripTableViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
     
-    @IBOutlet weak var bg: UIView!
+   
+    
+//    @IBOutlet weak var animView: CSAnimationView!
     
     var names = ["Goa","Pondicherry","Manali","Boston","New York","Singapore","California"]
     var price = ["10,000","7,500","5,000","1,00,000","2,50,000","1,00,000","3,00,000"]
@@ -70,7 +72,7 @@ class tripTableViewController: UIViewController,UITableViewDataSource,UITableVie
     }
     
     
-    
+      
  
     
 }

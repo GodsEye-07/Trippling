@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Canvas
+
 
 class ViewController: UIViewController {
     
@@ -110,7 +110,7 @@ class ViewController: UIViewController {
                 self.menuView.transform = CGAffineTransform(translationX: 0, y: -67)
                 self.toggleButton.transform = CGAffineTransform(rotationAngle: self.radians(degrees: 180))
         }) { (true) in
-            
+                // nothing needed for the completion of the button
             }
         }
         else{
